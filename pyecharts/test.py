@@ -56,35 +56,40 @@ a1 = [
 ,'阳泉'
 ]
 a2 = [
--1
-,-2
-,-3
-,-4
-,-5
-,-6
-,-7
-,-8
-,-9
-,-10
-,-11
-,-12
-,-13
-,-14
-,-15
-,-16
-,-17
-,-18
-,-19
+ -25
+,-24
+,-23
+,-22
+,-21
 ,-20
-,20
-,20
+,-19
+,-18
+,-17
+,-16
+,-15
+,-14
+,-13
+,-12
+,-11
+,-10
+,-9
+,-8
+,-7
+,-6
+,25
+,25
+,24
+,23
+,22
+,21
 ,19
-,18
+,19
+,17
 ,17
 ,16
+,15
 ,14
-,14
-,12
+,13
 ,12
 ,11
 ,10
@@ -92,11 +97,6 @@ a2 = [
 ,8
 ,7
 ,6
-,5
-,4
-,3
-,2
-,1
 ]
 
 output = (
@@ -104,9 +104,7 @@ output = (
     .add("污染指数", zip(a1, a2), "china-cities", label_opts=opts.LabelOpts(is_show=False),)
     .set_global_opts(
         title_opts=opts.TitleOpts(title="2020年4月生态环境部通报"),
-        visualmap_opts=opts.VisualMapOpts(min_=-20, max_=20)
+        visualmap_opts=opts.VisualMapOpts(min_=-25, max_=25)
         )
     .render("test.html")
 )
-
-
