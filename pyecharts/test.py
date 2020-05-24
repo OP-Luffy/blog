@@ -101,7 +101,7 @@ a2 = [
 
 output = (
     Map()
-    .add("污染指数", zip(a1, a2), "china-cities", label_opts=opts.LabelOpts(is_show=False),)
+    .add("污染指数", zip(a1, a2), "china-cities", label_opts=opts.LabelOpts(is_show=False),is_map_symbol_show=False)
     .set_global_opts(
         title_opts=opts.TitleOpts(title="2020年4月生态环境部通报"),
         visualmap_opts=opts.VisualMapOpts(min_=-25, max_=25)
