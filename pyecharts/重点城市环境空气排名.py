@@ -106,5 +106,5 @@ output = (
         title_opts=opts.TitleOpts(title="2020年4月生态环境部通报"),
         visualmap_opts=opts.VisualMapOpts(min_=-25, max_=25)
         )
-    .render("test.html")
+    .render("重点城市环境空气排名.html")
 )
